@@ -16,11 +16,6 @@ header {
     text-align: center;
 }
 
-#imagecol {
-    width: 60%;
-    margin: 8px;
-}
-
 .contentColumn {
     padding-right: 20px;
 }
@@ -49,8 +44,13 @@ header {
     width: 100%;
 }
 
+#imagecol {
+    width: 40%;
+    margin: 8px;
+}
+
 #testimonials {
-    width: 45%;
+    width: 30%;
 }
 
 #testimonials > p:nth-child(even) {
@@ -65,6 +65,10 @@ header {
 #imagecol > p {
     text-align: center;
     font-size: 12px;
+}
+
+#rightsidebar {
+    width: 30%;
 }
 
 hr {
