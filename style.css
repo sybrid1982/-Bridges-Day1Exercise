@@ -14,7 +14,15 @@ header {
 }
 
 #imagecol {
-    width: 45%;
+    width: 40%;
+}
+
+.contentColumn {
+    padding-right: 20px;
+}
+
+#imagecol > img {
+    width: 100%;
 }
 
 #testimonials {
