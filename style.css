@@ -16,11 +16,32 @@ header {
 }
 
 #imagecol {
-    width: 40%;
+    width: 60%;
+    margin: 8px;
 }
 
 .contentColumn {
     padding-right: 20px;
+}
+
+.headerimg > img {
+    margin-top: 90px;
+    height: 100%;
+    width: auto;
+}
+
+.headerimg > p {
+    font-size: 12px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.headerimg {
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #imagecol > img {
@@ -28,7 +49,7 @@ header {
 }
 
 #testimonials {
-    width: 35%;
+    width: 45%;
 }
 
 #testimonials > p:nth-child(even) {
