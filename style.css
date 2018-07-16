@@ -34,24 +34,34 @@ header {
     background-color: #8585e0;
 }
 
+#testimonials > p {
+    border: 2px solid #3333cc;
+    padding: 5px;
+}
+
 hr {
     border-width: 5px;
     border-style: solid;
-    color: green;
+    color: #3333cc;
 }
 
 .verticalLine {
-    border-right: thick solid green;
+    height: 100%;
+    border-right: 3px solid #3333cc;
   }
 
   a:hover {
     text-decoration: none;
-    color: green;
+    color: #3333cc;
   }
 
   .sidebarButton {
-      border: 2px solid;
+      border: 2px solid #3333cc;
       background-color: #d6d6f5;
       padding: 15px;
       font-size: 24px;
+  }
+
+  button:hover {
+    background-color: #3333cc;
   }
