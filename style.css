@@ -43,3 +43,9 @@ hr {
     text-decoration: none;
     color: green;
   }
+
+  .sidebarButton {
+      border: 2px solid green;
+      padding: 15px;
+      font-size: 24px;
+  }
