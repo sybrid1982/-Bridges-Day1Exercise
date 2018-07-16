@@ -36,20 +36,20 @@ header {
 }
 
 #testimonials > p {
-    border: 2px solid #505247;
+    border: 2px solid #282924;
     padding: 5px;
 }
 
 hr {
     border-width: 5px;
     border-style: solid;
-    color: #505247;
+    color: #282924;
     margin: 0px;
 }
 
 .verticalLine {
     height: 100%;
-    border-right: 3px solid #505247;
+    border-right: 3px solid #282924;
   }
 
   a:hover {
@@ -58,7 +58,7 @@ hr {
   }
 
   .sidebarButton {
-      border: 2px solid #505247;
+      border: 2px solid #282924;
       background-color: #9D886D;
       padding: 15px;
       font-size: 24px;
