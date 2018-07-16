@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#branding {
+    color: green;
+}
