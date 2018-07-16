@@ -38,3 +38,8 @@ hr {
 .verticalLine {
     border-right: thick solid green;
   }
+
+  a:hover {
+    text-decoration: none;
+    color: green;
+  }
