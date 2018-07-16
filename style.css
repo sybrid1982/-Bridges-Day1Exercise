@@ -40,6 +40,11 @@ header {
     padding: 5px;
 }
 
+#imagecol > p {
+    text-align: center;
+    font-size: 12px;
+}
+
 hr {
     border-width: 5px;
     border-style: solid;
@@ -74,4 +79,8 @@ hr {
       display: flex;
       flex-direction: column;
       align-items: center;
+  }
+
+  #links {
+      padding: 8px;
   }
