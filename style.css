@@ -9,9 +9,8 @@ header {
 }
 
 #branding {
-    color: green;
-    border: 5px solid green;
     padding: 20px 40px;
+    text-align: center;
 }
 
 #imagecol {
@@ -20,4 +19,10 @@ header {
 
 #testimonials {
     width: 35%;
+}
+
+hr {
+    border-width: 5px;
+    border-style: solid;
+    color: green;
 }
