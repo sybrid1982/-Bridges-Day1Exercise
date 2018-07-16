@@ -26,3 +26,7 @@ hr {
     border-style: solid;
     color: green;
 }
+
+.verticalLine {
+    border-right: thick solid green;
+  }
