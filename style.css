@@ -6,6 +6,7 @@ header {
 .content {
     display: flex;
     justify-content: space-between;
+    background-color: #d6d6f5;
 }
 
 #branding {
@@ -29,6 +30,10 @@ header {
     width: 35%;
 }
 
+#testimonials > p:nth-child(even) {
+    background-color: #8585e0;
+}
+
 hr {
     border-width: 5px;
     border-style: solid;
@@ -45,7 +50,8 @@ hr {
   }
 
   .sidebarButton {
-      border: 2px solid green;
+      border: 2px solid;
+      background-color: #d6d6f5;
       padding: 15px;
       font-size: 24px;
   }
