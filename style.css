@@ -1,12 +1,13 @@
 header {
     display: flex;
     justify-content: space-between;
+    background-color: #778486;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
-    background-color: #d6d6f5;
+    background-color: #D8B188;
 }
 
 #branding {
@@ -31,37 +32,37 @@ header {
 }
 
 #testimonials > p:nth-child(even) {
-    background-color: #8585e0;
+    background-color: #9D886D;
 }
 
 #testimonials > p {
-    border: 2px solid #3333cc;
+    border: 2px solid #505247;
     padding: 5px;
 }
 
 hr {
     border-width: 5px;
     border-style: solid;
-    color: #3333cc;
+    color: #505247;
 }
 
 .verticalLine {
     height: 100%;
-    border-right: 3px solid #3333cc;
+    border-right: 3px solid #505247;
   }
 
   a:hover {
     text-decoration: none;
-    color: #3333cc;
+    color: #505247;
   }
 
   .sidebarButton {
-      border: 2px solid #3333cc;
-      background-color: #d6d6f5;
+      border: 2px solid #505247;
+      background-color: #9D886D;
       padding: 15px;
       font-size: 24px;
   }
 
   button:hover {
-    background-color: #3333cc;
+    background-color: #505247;
   }
