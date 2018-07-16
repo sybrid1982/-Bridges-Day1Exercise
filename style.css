@@ -10,4 +10,14 @@ header {
 
 #branding {
     color: green;
+    border: 5px solid green;
+    padding: 20px 40px;
+}
+
+#imagecol {
+    width: 45%;
+}
+
+#testimonials {
+    width: 35%;
 }
