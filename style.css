@@ -37,6 +37,7 @@ header {
     margin-top: 90px;
     height: 100%;
     width: auto;
+    border: 3px solid #282924;
 }
 
 .headerimg > p {
