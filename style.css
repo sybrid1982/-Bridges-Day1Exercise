@@ -2,6 +2,7 @@ body {
     background-color: #D8B188
 }
 
+/* removes default margin, makes header look better */
 html, body {
     margin: 0;
 }
@@ -11,13 +12,16 @@ header {
     justify-content: space-between;
     background-color: #778486;
     color: #F3ECCE;
+    text-shadow: -1px -1px 0 #282924,
+                1px -1px 0 #282924,
+                1px 1px 0 #282924,
+                -1px 1px 0 #282924;
     border-bottom: 3px solid #282924;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
-    background-color: #D8B188;
 }
 
 #branding {
@@ -51,6 +55,7 @@ header {
 
 #imagecol > img {
     width: 100%;
+    border: 3px solid #282924;
 }
 
 #imagecol {
@@ -102,7 +107,7 @@ hr {
       background-color: #9D886D;
       padding: 15px;
       font-size: 24px;
-      width: 50%;
+      width: 70%;
       margin: 5px;
   }
 
@@ -118,4 +123,5 @@ hr {
 
   #links {
       padding: 8px;
+      text-shadow: none;
   }
