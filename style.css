@@ -2,6 +2,10 @@ body {
     background-color: #D8B188
 }
 
+html, body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
