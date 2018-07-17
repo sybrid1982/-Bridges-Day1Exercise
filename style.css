@@ -1,8 +1,13 @@
+body {
+    background-color: #D8B188
+}
+
 header {
     display: flex;
     justify-content: space-between;
     background-color: #778486;
-    color: #F3ECCE
+    color: #F3ECCE;
+    border-bottom: 3px solid #282924;
 }
 
 .content {
